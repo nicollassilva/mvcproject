@@ -6,10 +6,8 @@ use App\Models\User;
 
 class UserController
 {
-    public function show($id)
+    public function create()
     {
-        $user = User::find($id);
-
-        echo $user->email;
+        return view('blog.register');
     }
 }

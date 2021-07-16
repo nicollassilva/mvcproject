@@ -6,6 +6,6 @@ class BlogController
 {
     public function index()
     {
-        echo 'Estou estudando MVC! Atualizado';
+        return view('blog.index');
     }
 }

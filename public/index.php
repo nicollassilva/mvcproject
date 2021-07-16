@@ -11,9 +11,10 @@ Route::namespace("App\Controllers")
     ->group(function() {
         Route::get("/", "BlogController@index");
 
-        Route::get("/user/{id}", "UserController@show")
-            ->name('users.show')
-            ->whereNumber('id');
+        /**
+         * Users Routes
+         */
+        Route::get('/register', 'UserController@create')->name('users.create');
     });
 
 
