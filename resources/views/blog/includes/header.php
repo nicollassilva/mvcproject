@@ -36,14 +36,14 @@
                                 <path d="M21 21l-5.2-5.2" />
                             </svg>
                         </a>
-                        <a class="btn btn-sm btn-outline-secondary" href="<?= route('users.users.create') ?>">Cadastrar</a>
+                        <a class="btn btn-sm btn-outline-secondary" href="<?= route('users.create') ?>">Cadastrar</a>
                     </div>
                 </div>
             </header>
 
             <div class="nav-scroller py-1 mb-2">
                 <nav class="nav d-flex justify-content-center">
-                    <a class="p-2 link-secondary" href="#">Página Inicial</a>
+                    <a class="p-2 link-secondary" href="">Página Inicial</a>
                     <a class="p-2 link-secondary" href="#">Sobre nós</a>
                     <a class="p-2 link-secondary" href="#">Equipe</a>
                     <a class="p-2 link-secondary" href="#">Contate-nos</a>

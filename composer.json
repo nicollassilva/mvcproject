@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "nicollassilva/minasrouter": "^1.0",
-        "nicollassilva/minasorm": "^0.17.0"
+        "nicollassilva/minasorm": "^0.18.0",
+        "wixel/gump": "1.11"
     },
     "license": "MIT",
     "authors": [

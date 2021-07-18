@@ -24,6 +24,8 @@ class View {
 
         require_once $filePath;
         require_once $this->getDirectory("blog.includes.footer");
+
+        return true;
     }
 
     /**
